@@ -1,0 +1,129 @@
+#container {
+    width: 50%;
+    margin: 100px 0 0 350px;
+    padding: 0 25px 40px 10px;
+    background-color: #1a21ff;
+    border: 4px solid #B0E0E6;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
+
+.content {
+    margin-top: 54px;
+}
+
+.header {
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.bg-primary {
+    background-color: #1a21ff !important;
+}
+
+#btn {
+    position: relative;
+    float: right;
+    margin-right: 80px;
+}
+
+.left-title {
+    /* width: 80px; */
+    color: #FFF;
+    font-size: 18px;
+    float: left;
+}
+
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0 10pc;
+    border: 0;
+}
+
+.right-title {
+    width: 150px;
+    text-align: right;
+    float: right;
+    color: #FFF;
+}
+
+.quiz-body {
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+.option-block-container {
+    margin-top: 50px;
+    width: 420px;
+}
+
+.option-block {
+    padding: 10px;
+    background: aliceblue;
+    border: 1px solid #84c5fe;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: black;
+    /* margin-left: 500px; */
+
+}
+
+.result-question {
+    font-weight: bold;
+    /* text-align: center !important; */
+}
+
+.c-wrong {
+    margin-left: 20px;
+    color: #FF0000;
+}
+
+.c-correct {
+    margin-left: 20px;
+    color: green;
+}
+
+.last-row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.res-header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #69da0c !important;
+    border-color: #6cd814 !important;
+    border-radius: 5px solid #69da0c !important;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #6ae407 !important;
+    border-color: #6ae407 !important;
+}
+
+.btn-success:focus {
+    -webkit-box-shadow: 0 0 0 2px #69da0c;
+    box-shadow: 0 0 0 2px #69da0c;
+}
+
+/* #previous {
+    margin-right: 45px !important;
+  }
+
+  #next {
+    margin-right: 45px !important;
+  } */
